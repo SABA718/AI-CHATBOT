@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "What's up?", "Good morning", "Good evening"],
+      "responses": ["Hi there!", "Hello!", "Hey!", "Hi! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye!", "Take care!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "No problem!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I'm an AI chatbot!", "I'm your virtual assistant."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I would tell you a joke about UDP... but you might not get it."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time"],
+      "responses": ["I'm not synced to a clock yet. You can check your device's time."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "Is it raining?", "How's the weather today?"],
+      "responses": ["I'm not connected to the weather API yet. But I hope it's sunny!"]
+    },
+
+    {
+      "tag": "capital_india",
+      "patterns": ["what is the capital of India?", "capital of India", "India's capital"],
+      "responses": ["The capital of India is New Delhi."]
+    },
+    {
+      "tag": "ipl_venues",
+      "patterns": ["Where are IPL matches held?", "IPL 2024 venues", "IPL stadiums"],
+      "responses": ["IPL matches are held across major stadiums in India like Wankhede, Chepauk, Eden Gardens, and Narendra Modi Stadium."]
+    },
+    {
+      "tag": "ipl_most_titles",
+      "patterns": ["Which team has the most IPL titles?", "Most IPL wins", "Most successful IPL team"],
+      "responses": ["Mumbai Indians and Chennai Super Kings both have 5 IPL titles each."]
+    },
+    {
+      "tag": "ipl_best_captain",
+      "patterns": ["Who is the best IPL captain?", "Greatest captain in IPL", "Most successful IPL captain"],
+      "responses": ["MS Dhoni is widely considered the most successful IPL captain."]
+    },
+    {
+      "tag": "ipl_highest_run_scorer",
+      "patterns": ["Who scored the most runs in IPL?", "most runs scorer in IPL? "],
+      "responses": ["Virat Kohli is the highest run scorer in IPL."]
+    },
+    {
+      "tag": "gravity_discovery",
+      "patterns": ["Who discovered gravity?", "who found gravity"],
+      "responses": ["Gravity was discovered by Sir Isaac Newton."]
+    },
+    {
+      "tag": "continents_count",
+      "patterns": ["How many continents are there?", "number of continents", "continents on Earth"],
+      "responses": ["There are 7 continents in the world."]
+    }
+  
+  ]
+}
